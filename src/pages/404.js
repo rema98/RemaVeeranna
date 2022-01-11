@@ -1,54 +1,62 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React, { useState, useEffect } from 'react';
+import { Link } from 'gatsby';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import PropTypes from 'prop-types';
+import { Layout } from '@components';
+import styled from 'styled-components';
+import { theme, mixins, media, Main } from '@styles';
+const { colors, fonts, navDelay } = theme;
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+const StyledMainContainer = styled(Main)`
+  ${mixins.flexCenter};
+  flex-direction: column;
+`;
+const StyledTitle = styled.h1`
+  color: ${colors.green};
+  font-family: ${fonts.SFMono};
+  font-size: 12vw;
+  line-height: 1;
+  ${media.bigDesktop`font-size: 200px;`}
+  ${media.phablet`font-size: 120px;`};
+`;
+const StyledSubtitle = styled.h2`
+  font-size: 3vw;
+  font-weight: 400;
+  ${media.bigDesktop`font-size: 50px;`};
+  ${media.phablet`font-size: 30px;`};
+`;
+const StyledHomeButton = styled(Link)`
+  ${mixins.bigButton};
+  margin-top: 40px;
+`;
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+const NotFoundPage = ({ location }) => {
+  const [isMounted, setIsMounted] = useState(false);
 
-// markup
-const NotFoundPage = () => {
+  useEffect(() => {
+    const timeout = setTimeout(() => setIsMounted(true), navDelay);
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    <Layout location={location}>
+      <TransitionGroup component={null}>
+        {isMounted && (
+          <CSSTransition timeout={500} classNames="fade">
+            <StyledMainContainer className="fillHeight">
+              <StyledTitle>404</StyledTitle>
+              <StyledSubtitle>Page Not Found</StyledSubtitle>
+              <StyledHomeButton to="/">Go Home</StyledHomeButton>
+            </StyledMainContainer>
+          </CSSTransition>
+        )}
+      </TransitionGroup>
+    </Layout>
+  );
+};
 
-export default NotFoundPage
+NotFoundPage.propTypes = {
+  location: PropTypes.object.isRequired,
+};
+
+export default NotFoundPage;
