@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Traffic Flow Prediction'
-cover: 'demo1.png'
+cover: 'LSTM Time Series.png'
 github: 'https://github.com/caimconsulting/caim-consulting-website'
 external: 'https://bel-india.in/'
 tech:
