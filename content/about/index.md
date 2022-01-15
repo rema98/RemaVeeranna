@@ -9,9 +9,10 @@ skills:
   - MySQL
   - MongoDB
   - Oracle.
-  - Machine Learning Technologies : Tensor Flow, PyTorch, Keras, Numpy, Scikit-Learn, Pandas 
-  - Web dev: ReactJS, NodeJS (Basic), Flask, HTML ,CSS,D3.js,Microservices, REST, JSON.
+  - PyTorch, 
+  - Pandas 
+  - NodeJS 
 
 ---
 
-Hello I am Sajeed and I love Rema
+I am Computer Science Graduate student at University Of Florida
