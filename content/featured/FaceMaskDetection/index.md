@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Hybrid Employee Attrition'
-cover: 'demo.PNG'
+cover: 'demo.png'
 github: 'https://github.com/chandrikadeb7/Face-Mask-Detection'
 tech:
   - OpenCV
