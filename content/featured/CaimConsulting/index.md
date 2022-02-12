@@ -1,16 +1,16 @@
 ---
 date: '1'
-title: 'Caim Consulting'
-cover: 'demo1.png'
+title: 'Traffic Flow Prediction'
+cover: 'LSTM Time Series.png'
 github: 'https://github.com/caimconsulting/caim-consulting-website'
-external: 'https://caimconsulting.in/'
+external: 'https://bel-india.in/'
 tech:
-  - HTML
-  - CSS
-  - Javascript
-  - Bootstrap
+  - Machine Learning Algorithms
+  - Jupyter Notebook
+  - Keras 
+  - TensorFlow
 
 showInProjects: true
 ---
 
-Collaborated with the [Developer Team](https://caimconsulting.in/developers/?) to develop the front-end and deploy the website on Heroku for a pro-bono legal startup [Caim Consulting](https://caimconsulting.in/).
+Collaborated with the [Developer Team](https://bel-india.in/) to develop time series model to predict traffic flow for Agra Based Project.

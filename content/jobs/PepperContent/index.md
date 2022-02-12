@@ -1,9 +1,9 @@
 ---
 date: '2021-07-07'
-title: 'Freelance Content Writer'
-company: 'Pepper'
-range: 'July 2021 - Present'
-url: 'https://www.peppercontent.io'
+title: 'Student Assistant'
+company: 'UF Davis Cancer Pavillion'
+range: 'Dec 2021 - Present'
+url: 'https://m.ufhealth.org/uf-health-shands-hospital'
 ---
 
-- Creating Tech Content as a freelancer for the content giant [Pepper Content](https://www.peppercontent.io).
+- Helping the medcial team in Research Project to predict the tumor growth using Time series prediction(CNN+LSTM).

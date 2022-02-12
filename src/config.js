@@ -1,16 +1,16 @@
 module.exports = {
-  siteTitle: 'Chandrika Deb | Software Engineer',
+  siteTitle: 'Rema Veeranna Gowda| Software Engineer',
   siteDescription:
-    'Chandrika Deb is a Software Engineer at Amdocs, who loves learning new things and helping tech beginners.',
+    'Rema Veeranna Gowda is a Graduate student at UF(University Of Florida), who loves learning new things.',
   siteKeywords:
-    'Chandrika Deb, Chandrika, Deb, chandrikadeb7, software engineer, face mask, face mask detection, web developer, javascript, girlscript, jamshedpur, amdocs, bit, mesra, deoghar',
-  siteUrl: 'https://chandrikadeb7.github.io/',
+    'Rema',
+  siteUrl: 'https://rema98.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Chandrika Deb',
-  location: 'Jamshedpur, India',
-  email: 'chandrikadeb7@gmail.com',
+  name: 'Rema Veeranna GOwda',
+  location: 'Gainesville, Florida',
+  email: 'rveerannagowda@ufl.edu',
   github: 'https://github.com/chandrikadeb7',
   twitterHandle: '@chandrikadeb7',
   socialMedia: [

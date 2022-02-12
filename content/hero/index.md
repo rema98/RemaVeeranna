@@ -1,12 +1,11 @@
 ---
 title: 'Hello World! My name is'
-name: 'Chandrika Deb'
+name: 'Rema Veeranna Gowda'
 subtitle: 'I love exploring new things!'
 buttonText: 'Hire Me!'
 ---
 
-I'm an India based developer with a goal-driven creative mindset and passion for learning and innovating.
+I'm an software developer and an ML Enthusiast with a drive to learn new things.
 
-Currently working as a Software Engineering Associate at [Amdocs](https://www.amdocs.com/) and as a Freelance Content Writer at [Pepper Content](https://www.peppercontent.io).
-
-Outside work, I occasionally blog on [Medium](https://chandrikadeb7.medium.com/) or create amateur #PureCSS [Codepen](https://codepen.io/chandrikadeb7). Off-screen, I sketch my thoughts [here](https://pin.it/4W1Rxtj)!
+Currently a student at University Of Florida [UF](https://www.ufl.edu/) and working as a Student Assistant in UF Davis Cancer Pavillion for medical Research Project.
+Outside academics, I like to learn new technologies and build,design new things and solve challenging problems.

@@ -1,14 +1,15 @@
 ---
 date: '2'
-title: 'GirlScript Twitter Bot'
-cover: 'bot.png'
+title: 'Road Safety Analysis'
+cover: 'Road Safety Analysis.png'
 github: 'https://github.com/chandrikadeb7/Girlscript-Twitter-Bot'
 external: 'https://twitter.com/girlscript_bot'
 tech:
-  - Python
-  - tweepy
-  - Twitter API
+  - C#
+  - HTML
+  - CSS
+  - Javascript
 showInProjects: true
 ---
 
-A Twitter Bot for [GirlScript Foundation](https://www.girlscript.tech/) that automatically retweets, favourites the tweets and follows the users who tweet with hashtag #girlscript. Checkout my tech blog on how to create it [HERE](https://www.geeksforgeeks.org/how-to-make-a-twitter-bot-in-python/)
+A web application to help the law enforcement and the people to analyze the trend of accidents through different graphs and geo map based on location.
